@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fezai Tech</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="logo">Fezai Tech</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">İşlerimiz</a></li>
+            <li><a href="#experience">Hakkımızda</a></li>
+            <li><a href="#projects">Blog</a></li>
+            <li><a href="#contact">İletişim</a></li>
+            <li>
+                <img
+                        id="modeToggle"
+                        class="icon color-icon"
+                        src="./assets/theme_light.png"
+                        src-light="./assets/theme_light.png"
+                        src-dark="./assets/theme_dark.png"
+                        alt="Color them icon"
+                />
+            </li>
+        </ul>
+    </div>
+</nav>
+<nav id="hamburger-nav">
+    <div class="logo">Fezai Tech</div>
+    <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">İşlerimiz</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Hakkımızda</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Blog</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">İletişim</a></li>
+            <li>
+                <img
+                        id="modeToggle2"
+                        class="icon color-icon"
+                        src="./assets/theme_light.png"
+                        src-light="./assets/theme_light.png"
+                        src-dark="./assets/theme_dark.png"
+                        alt="Color them icon"/>
+            </li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section__text">
+        <p class="section__text__p2">Fikirlerinizi<br></p>
+        <p class="section__text__p1">Gerçeğe<br>Dönüştürüyoruz</p>
+    </div>
+    <div class="section__text__button">
+        <p class="section__text__p3">Sizlere Yönelik<br>Çözümlerimiz İle<br>Fikirleriniz<br>Gerçek Olsun</p>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Ücretsiz Teklif Alın
+        </button>
+    </div>
+
+</section>
+<footer>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#about">İşlerimiz</a></li>
+            <li><a href="#experience">Hakkımızda</a></li>
+            <li><a href="#projects">Blog</a></li>
+            <li><a href="#contact">İletişim</a></li>
+        </ul>
+        <div class="nav-links"> <p>Copyright &#169; 2024 Fezai Tech. Tüm Hakları Saklıdır.</p></div>
+    </nav>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
