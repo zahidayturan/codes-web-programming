@@ -218,6 +218,8 @@ section {
 
 .section-container {
     display: flex;
+    width: fit-content;
+    background-color: var(--secondary-color-6);
 }
 
 /* PROFILE SECTION */
@@ -297,30 +299,98 @@ section {
     height: 2rem;
 }
 
+.icon__large {
+    cursor: pointer;
+    height: 3rem;
+}
+
 /* ABOUT SECTION */
 
 #about {
     position: relative;
-}
-
-.about-containers {
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-}
-
-.about-details-container {
-    justify-content: center;
-    flex-direction: column;
-}
-
-.about-containers,
-.about-details-container {
+    height: 85vh;
+    width: auto;
+    align-items: center;
     display: flex;
 }
 
-.about-pic {
-    border-radius: 2rem;
+.jobs-container {
+    height: 16rem;
+    width: 100%;
+    position: absolute;
+    align-items: center;
+    display: flex;
+    background-image: url("./assets/line.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: content-box;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: var(--secondary-color-6);
+}
+
+.job-item{
+    width: 12rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    justify-content: space-around;
+    padding: 12px;
+}
+
+.job-text{
+
+}
+.job-icon{
+    width: 10.5rem;
+    height: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.job-item-color-1 {
+    margin-bottom: 12rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color-5);
+}
+
+.job-item-color-2 {
+    margin-top:  8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color-4);
+}
+
+.job-item-color-3 {
+    margin-top:  12rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color-3);
+}
+
+.job-item-color-4 {
+    margin-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--secondary-color-2);
+}
+
+.jobs__text__p1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    flex: 1;
+    text-align: start;
+    font-style: normal;
+    color: var(--primary-color);
+}
+.jobs__text__p2 {
+    font-size: 1.5rem;
+    flex: 1;
+    text-align: start;
+    font-style: normal;
+    color: var(--primary-color);
 }
 
 .arrow {
@@ -329,64 +399,147 @@ section {
     bottom: 2.5rem;
 }
 
-.details-container {
-    padding: 1.5rem;
-    flex: 1;
-    background: var(--primary-color-2);
-    border-radius: 2rem;
-    border: var(--button-border);
-    border-color: var(--container-border);
-    text-align: center;
-}
-
-.section-container {
-    gap: 4rem;
-    height: 80%;
-}
-
-.section__pic-container {
-    width: 100;
-    margin: auto 0;
-    position: relative;
-}
-
 /* EXPERIENCE SECTION */
 
 #experience {
-    position: relative;
-}
-
-.experience-sub-title {
-    color: var(--secondary-color);
-    font-weight: 600;
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
-}
-
-.experience-details-container {
+    align-items: center;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    height: 85vh;
+    width: auto;
+}
+
+.experience-icon{
+    position: absolute;
+}
+
+.experience__text__p1 {
+    font-size: 3.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary-color-3);
+}
+
+.experience__text__p2 {
+    font-size: 3.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.experience__text__p3 {
+    font-size: 3.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary-color-4);
+}
+
+.experience__text__p4 {
+    width: 80%;
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.experience-container{
+    width: 100%;
+    height: 76vh;
+    background-image: url("assets/we.png");
+    background-position: right;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
     flex-direction: column;
 }
 
-.article-container {
+/* WORKS SECTION */
+
+#works {
+    align-items: center;
     display: flex;
-    text-align: initial;
-    flex-wrap: wrap;
+    flex-direction: column;
+    height: 85vh;
+    width: auto;
+}
+
+.works-container{
+    width: 95%;
+    height: 76vh;
+    border-radius: 12px;
+    background-color: white;
+    background-image: url("assets/digits-light.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.works__text__p1 {
+    font-size: 3.5rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    color: var(--secondary-color-3);
+}
+
+.works__text__p2 {
+    font-size: 2rem;
+    font-style: normal;
+    text-align: center;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.works__text__p3 {
+    font-size: 1.5rem;
+    font-style: normal;
+    text-align: start;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.works__text__logo {
+    width: 39vh;
+    align-items: center;
+    display: flex;
     flex-direction: row;
-    gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
-article {
+.works__text__p4 {
+    font-size: 1.25rem;
+    font-style: normal;
+    text-align: start;
+    font-weight: 400;
+    color: var(--primary-color);
+}
+
+.works-container-detail{
+    width: 95%;
+    align-items: center;
     display: flex;
-    width: 10rem;
+    flex-direction: row;
     justify-content: space-around;
-    gap: 0.5rem;
 }
 
-article .icon {
-    cursor: default;
+.works-container-mini{
+    width: 40vh;
+    height: 40vh;
+    border-radius: 32px;
+    padding: 10px 10px;
+    background-color: var(--secondary-color-4);
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 /* PROJECTS SECTION */
