@@ -1,171 +1,274 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fezai Tech</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="mediaqueries.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fezai Tech</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
 </head>
 <body>
-<nav id="desktop-nav">
-    <div class="logo">Fezai Tech</div>
-    <div>
-        <ul class="nav-links">
-            <li><a href="#about">İşlerimiz</a></li>
-            <li><a href="#experience">Hakkımızda</a></li>
-            <li><a href="#works">Blog</a></li>
-            <li><a href="#products">İletişim</a></li>
-            <li>
-                <img
-                        id="modeToggle"
-                        class="icon color-icon"
-                        src="./assets/theme_light.png"
-                        src-light="./assets/theme_light.png"
-                        src-dark="./assets/theme_dark.png"
-                        alt="Color them icon"
-                />
-            </li>
-        </ul>
-    </div>
+<nav class="header-nav">
+  <div class="logo">Fezai Tech</div>
+  <div>
+    <ul class="nav-links">
+      <li><a href="#about">İşlerimiz</a></li>
+      <li><a href="#experience">Hakkımızda</a></li>
+      <li><a href="#works">Blog</a></li>
+      <li><a href="#products">İletişim</a></li>
+      <li>
+        <img
+            id="modeToggle"
+            class="icon color-icon"
+            src="./assets/theme_light.png"
+            src-light="./assets/theme_light.png"
+            src-dark="./assets/theme_dark.png"
+            alt="Color them icon"
+        />
+      </li>
+      <li> <div id="languageToggle" onclick="toggleLanguage()" data-translate="language">TR</div></li>
+    </ul>
+  </div>
 </nav>
 <nav id="hamburger-nav">
-    <div class="logo">Fezai Tech</div>
-    <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-        <div class="menu-links">
-            <li><a href="#about" onclick="toggleMenu()">İşlerimiz</a></li>
-            <li><a href="#experience" onclick="toggleMenu()">Hakkımızda</a></li>
-            <li><a href="#works" onclick="toggleMenu()">Blog</a></li>
-            <li><a href="#products" onclick="toggleMenu()">İletişim</a></li>
-            <li>
-                <img
-                        id="modeToggle2"
-                        class="icon color-icon"
-                        src="./assets/theme_light.png"
-                        src-light="./assets/theme_light.png"
-                        src-dark="./assets/theme_dark.png"
-                        alt="Color them icon"/>
-            </li>
-        </div>
+  <div class="logo">Fezai Tech</div>
+  <div class="hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
     </div>
+    <div class="menu-links">
+      <li><a href="#about" onclick="toggleMenu()">İşlerimiz</a></li>
+      <li><a href="#experience" onclick="toggleMenu()">Hakkımızda</a></li>
+      <li><a href="#works" onclick="toggleMenu()">Blog</a></li>
+      <li><a href="#products" onclick="toggleMenu()">İletişim</a></li>
+      <li><div class="hamburger-container">
+        <a id="languageToggle2" onclick="toggleLanguage()" data-translate="language">TR</a>
+      </div></li>
+      <li>
+        <img
+                id="modeToggle2"
+                class="icon color-icon"
+                src="./assets/theme_light.png"
+                src-light="./assets/theme_light.png"
+                src-dark="./assets/theme_dark.png"
+                alt="Color them icon"/>
+      </li>
+    </div>
+  </div>
 </nav>
+
 <section id="profile">
-    <div class="section__text">
-        <p class="section__text__p2">Fikirlerinizi<br></p>
-        <p class="section__text__p1">Gerçeğe<br>Dönüştürüyoruz</p>
-    </div>
-    <div class="section__text__button">
-        <p class="section__text__p3">Sizlere Yönelik<br>Çözümlerimiz İle<br>Fikirleriniz<br>Gerçek Olsun</p>
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-            Ücretsiz Teklif Alın
-        </button>
-    </div>
+  <div class="section__text">
+    <p class="section__text__p2" data-translate="idea__1">Fikirlerinizi<br></p>
+    <p class="section__text__p1" data-translate="idea__2">Gerçeğe</p>
+    <p class="section__text__p1" data-translate="idea__3">Dönüştürüyoruz</p>
+  </div>
+  <div class="section__text__button">
+    <p class="section__text__p3">Sizlere Yönelik<br>Dijital Çözümlerimiz<br>İle Fikirleriniz<br>Gerçek Olsun</p>
+    <button class="btn btn-color-1" onclick="location.href='./#contact'">
+      Ücretsiz Teklif Alın
+    </button>
+  </div>
 </section>
 
 <section id="about">
-    <div class="jobs-container">
-        <div class="job-item job-item-color-1">
-            <div class="job-item job-text">
-                <p class="jobs__text__p1">Mobil<br>Uygulama<br></p>
-                <p class="jobs__text__p2">Hizmeti</p>
-            </div>
-            <div class="job-item job-icon">
-                <img src="./assets/mobile.png" alt="Mobile icon" class="icon" />
-                <img src="./assets/link-arrow-light.png" alt="Link Arrow icon" class="icon" />
-            </div>
-        </div>
-        <div class="job-item job-item-color-2">
-            <div class="job-item job-icon">
-                <img src="./assets/web.png" alt="Web icon" class="icon" />
-                <img src="./assets/link-arrow-light.png" alt="Link Arrow icon" class="icon" />
-            </div>
-            <div class="job-item job-text">
-                <p class="jobs__text__p1">Web<br>Tasarım<br></p>
-                <p class="jobs__text__p2">Hizmeti</p>
-            </div>
-        </div>
-        <div class="job-item job-item-color-4">
-            <div class="job-item job-text">
-                <p class="jobs__text__p1">UI/UX<br>Tasarım<br></p>
-                <p class="jobs__text__p2">Hizmeti</p>
-            </div>
-            <div class="job-item job-icon">
-                <img src="./assets/uıux.png" alt="UıUx icon" class="icon" />
-                <img src="./assets/link-arrow-light.png" alt="Link Arrow icon" class="icon" />
-            </div>
-        </div>
-        <div class="job-item job-item-color-3">
-            <div class="job-item job-icon">
-                <img src="./assets/technic.png" alt="Technic icon" class="icon" />
-                <img src="./assets/link-arrow-light.png" alt="Link Arrow icon" class="icon" />
-            </div>
-            <div class="job-item job-text">
-                <p class="jobs__text__p1">Teknik<br>Destek<br></p>
-                <p class="jobs__text__p2">Hizmeti</p>
-            </div>
-        </div>
+  <div class="jobs-container">
+    <div class="job-item job-item-color-1">
+      <div class="job-item job-text">
+        <p class="jobs__text__p1">Mobil<br>Uygulama<br></p>
+        <p class="jobs__text__p2">Hizmeti</p>
+      </div>
+      <div class="job-item job-icon">
+        <img    src="assets/mobile.png"
+                src-light="./assets/mobile.png"
+                src-dark="./assets/mobile.png"
+                alt="Mobile icon" class="icon" />
+        <img src="./assets/link-arrow-light.png"
+             src-light="./assets/link-arrow-light.png"
+             src-dark="./assets/link-arrow-dark.png"
+             alt="Link Arrow icon" class="icon" />
+      </div>
     </div>
+    <div class="job-item job-item-color-2">
+      <div class="job-item job-icon">
+        <img src="./assets/web.png"
+             src-light="./assets/web.png"
+             src-dark="./assets/web.png"
+             alt="Web icon" class="icon" />
+        <img src="./assets/link-arrow-light.png"
+             src-light="./assets/link-arrow-light.png"
+             src-dark="./assets/link-arrow-dark.png"
+             alt="Link Arrow icon" class="icon" />
+      </div>
+      <div class="job-item job-text">
+        <p class="jobs__text__p1">Web<br>Tasarım<br></p>
+        <p class="jobs__text__p2">Hizmeti</p>
+      </div>
+    </div>
+    <div class="job-item job-item-color-4">
+      <div class="job-item job-text">
+        <p class="jobs__text__p1">UI/UX<br>Tasarım<br></p>
+        <p class="jobs__text__p2">Hizmeti</p>
+      </div>
+      <div class="job-item job-icon">
+        <img src="./assets/uıux.png"
+             src-light="./assets/uıux.png"
+             src-dark="./assets/uıux.png"
+             alt="UıUx icon" class="icon" />
+        <img src="./assets/link-arrow-light.png"
+             src-light="./assets/link-arrow-light.png"
+             src-dark="./assets/link-arrow-dark.png"
+             alt="Link Arrow icon" class="icon" />
+      </div>
+    </div>
+    <div class="job-item job-item-color-3">
+      <div class="job-item job-icon">
+        <img src="./assets/technic.png"
+             src-light="./assets/technic.png"
+             src-dark="./assets/technic.png"
+             alt="Technic icon" class="icon" />
+        <img src="./assets/link-arrow-light.png"
+             src-light="./assets/link-arrow-light.png"
+             src-dark="./assets/link-arrow-dark.png"
+             alt="Link Arrow icon" class="icon" />
+      </div>
+      <div class="job-item job-text">
+        <p class="jobs__text__p1">Teknik<br>Destek<br></p>
+        <p class="jobs__text__p2">Hizmeti</p>
+      </div>
+    </div>
+  </div>
 </section>
+
 <section id="experience">
-    <div class="experience-container">
-        <p class="experience__text__p1">Fezai Tech</p>
-        <p class="experience__text__p2">Dijital Çözümleri İle</p>
-        <p class="experience__text__p3">İşinize Değer Katın</p><br><br>
-        <p class="experience__text__p4"> Fezai Tech olarak; özel yazılım geliştirme, kurumsal web tasarım, mobil uygulama geliştirme ve arayüz tasarımı alanlarında siz değerli müşterilerimize profesyonel destek ve çözümler sunuyoruz.</p><br>
-        <p class="experience__text__p4"> Siz de yazılım çözümlerimizle ilgili bilgi almak için hemen bizimle iletişime geçin.</p><br>
-    </div>
+  <div class="experience-container">
+    <p class="experience__text__p1">Fezai Tech</p>
+    <p class="experience__text__p2">Dijital Çözümleri İle</p>
+    <p class="experience__text__p3">İşinize Değer Katın</p><br><br>
+    <p class="experience__text__p4"> Fezai Tech olarak; özel yazılım geliştirme, kurumsal web tasarım, mobil uygulama geliştirme ve arayüz tasarımı alanlarında siz değerli müşterilerimize profesyonel destek ve çözümler sunuyoruz.</p><br>
+    <p class="experience__text__p4"> Siz de yazılım çözümlerimizle ilgili bilgi almak için hemen bizimle iletişime geçin.</p><br>
+  </div>
 </section>
+
 <section id="works">
-    <div class="works-container">
-        <div>
-            <p class="works__text__p1">Nasıl Çalışırız ?</p><br>
-            <p class="works__text__p2">Fikirlerinizi Nasıl Gerçeğe Dönüştürüyoruz?</p>
-        </div>
-        <div class="works-container-detail">
-            <div class="works-container-mini">
-                <div class="works__text__logo">
-                    <p class="works__text__p3">Araştırma ve<br>Analiz</p>
-                    <img src="./assets/search.png" alt="Search icon" class="icon__large" />
-                </div>
-                <p class="works__text__p4">Projenizle ilgili saha araştırması ve detaylı analizle, projenizi benzer projelerden ayırıp öne çıkaracak sonuçlara ulaşırız.</p>
-            </div>
-            <div class="works-container-mini">
-                <div class="works__text__logo">
-                    <p class="works__text__p3">Ürün<br>Geliştirme</p>
-                    <img src="./assets/product.png" alt="Product icon" class="icon__large" />
-                </div>
-                <p class="works__text__p4">Başarılı ekibimiz tarafından projenize dair arayüzün yapısını eksiksiz ve kullanıma hazır biçimde oluşturup yazılımı tamamlarız.</p>
-            </div>
-            <div class="works-container-mini">
-                <div class="works__text__logo">
-                    <p class="works__text__p3">Test ve<br>Teslim</p>
-                    <img src="./assets/test.png" alt="Search icon" class="icon__large" />
-                </div>
-                <p class="works__text__p4">Oluşturulan projeyi testlere sokup tamamlandığını düşündüğümüzde sizin de onayınızın ardından dijital dünyada yayına çıkarırız.</p>
-            </div>
-        </div>
+  <div class="works-container">
+    <div>
+      <p class="works__text__p1">Nasıl Çalışırız ?</p><br>
+      <p class="works__text__p2">Fikirlerinizi Nasıl Gerçeğe Dönüştürüyoruz?</p>
     </div>
+    <div class="works-container-detail">
+      <div class="works-container-mini">
+        <div class="works__text__logo">
+          <p class="works__text__p3">Araştırma ve<br>Analiz</p>
+          <img src="./assets/search.png" alt="Search icon" class="icon__large" />
+        </div>
+        <p class="works__text__p4">Projenizle ilgili saha araştırması ve detaylı analizle, projenizi benzer projelerden ayırıp öne çıkaracak sonuçlara ulaşırız.</p>
+      </div>
+      <div class="works-container-mini">
+        <div class="works__text__logo">
+          <p class="works__text__p3">Ürün<br>Geliştirme</p>
+          <img src="./assets/product.png" alt="Product icon" class="icon__large" />
+        </div>
+        <p class="works__text__p4">Başarılı ekibimiz tarafından projenize dair arayüzün yapısını eksiksiz ve kullanıma hazır biçimde oluşturup yazılımı tamamlarız.</p>
+      </div>
+      <div class="works-container-mini">
+        <div class="works__text__logo">
+          <p class="works__text__p3">Test ve<br>Teslim</p>
+          <img src="./assets/test.png" alt="Search icon" class="icon__large" />
+        </div>
+        <p class="works__text__p4">Oluşturulan projeyi testlere sokup tamamlandığını düşündüğümüzde sizin de onayınızın ardından dijital dünyada yayına çıkarırız.</p>
+      </div>
+    </div>
+  </div>
 </section>
+
 <section id="products">
 
 </section>
+
+<section id="footer">
+  <div class="logo__social">
+    <img src="assets/logo_dark.png"
+         src-light="./assets/logo_dark.png"
+         src-dark="./assets/logo_dark.png"
+         alt="Logo" class="footer-logo" />
+    <div class="social">
+      <div class="social__text">Sosyal Medya Hesaplarımız</div>
+      <div class="social__logo">
+        <img
+                src="./assets/instagram.png"
+                alt="LinkedIn"
+                class="social__container"
+                onclick="location.href='https://linkedin.com/'"
+        />
+        <img
+                src="./assets/x.png"
+                alt="LinkedIn"
+                class="social__container"
+                onclick="location.href='https://linkedin.com/'"
+        />
+        <img
+                src="./assets/facebook.png"
+                alt="LinkedIn"
+                class="social__container"
+                onclick="location.href='https://linkedin.com/'"
+        />
+        <img
+                src="./assets/linkedin.png"
+                alt="LinkedIn"
+                class="social__container"
+                onclick="location.href='https://linkedin.com/'"
+        />
+      </div>
+      <button class="btn btn-color-1" onclick="location.href='./#contact'">
+        Bize Ulaşın
+      </button>
+    </div>
+  </div>
+
+  <div class="sub">
+    <div class="sub__text">Yeniliklerden ve blog yazılarından ilk siz haberdar olun.</div>
+    <div class="email-form">
+      <label for="email"></label><input type="email" id="email" name="email" class="email-input" placeholder="Bu alana e-posta adresinizi girebilirsiniz" required>
+      <button type="submit" class="submit-button">Bültene Kaydol</button>
+    </div>
+    <div class="sub__container p2">
+      <div class="sub__container">
+        <img
+                src="./assets/mail.png"
+                alt="Email icon"
+                class="icon__theme__not"
+        />
+        <div class="sub__text">fezaitech@gmail.com</div>
+      </div>
+      <div class="sub__container">
+        <img
+                src="./assets/location.png"
+                alt="Location icon"
+                class="icon__theme__not"
+        />
+        <div class="sub__text">Atakum / Samsun</div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <footer>
-    <nav>
-        <ul class="nav-links">
-            <li><a href="#about">İşlerimiz</a></li>
-            <li><a href="#experience">Hakkımızda</a></li>
-            <li><a href="#works">Blog</a></li>
-            <li><a href="#products">İletişim</a></li>
-        </ul>
-        <div class="nav-links"> <p>Copyright &#169; 2024 Fezai Tech. Tüm Hakları Saklıdır.</p></div>
-    </nav>
+  <nav class="footer-nav">
+    <ul class="nav-links">
+      <li><a href="#about">İşlerimiz</a></li>
+      <li><a href="#experience">Hakkımızda</a></li>
+      <li><a href="#works">Blog</a></li>
+      <li><a href="#products">İletişim</a></li>
+    </ul>
+    <div class="nav-links"> <p class="copyright-text">Copyright &#169; 2024 Fezai Tech. Tüm Hakları Saklıdır.</p></div>
+  </nav>
 </footer>
+
 <script src="script.js"></script>
 </body>
+
 </html>
