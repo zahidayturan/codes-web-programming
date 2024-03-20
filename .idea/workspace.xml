@@ -6,6 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e35a27af-9dc0-4e39-a675-eb6ff019d99f" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/page2.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/page2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-2/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.hello_world.html.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/ismet/WebstormProjects/codes-web-programming",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.hello_world.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ismet/WebstormProjects/codes-web-programming&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ismet\WebstormProjects\codes-web-programming\web-programming-23-24-spring-term\homework-2\assets" />
@@ -68,6 +72,8 @@
       <workItem from="1706736371917" duration="132000" />
       <workItem from="1710419225431" duration="10197000" />
       <workItem from="1710601620446" duration="1195000" />
+      <workItem from="1710878149924" duration="4641000" />
+      <workItem from="1710927236528" duration="3440000" />
     </task>
     <servers />
   </component>

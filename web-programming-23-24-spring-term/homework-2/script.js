@@ -45,32 +45,81 @@ document.getElementById("dd-icon").addEventListener("click", function() {
     window.location.href = "#header";
 });
 
-
-$(document).ready(function() {
-    $('#registration-form').submit(function(event) {
-        event.preventDefault();
-        var name = $('#name').val();
-        var surname = $('#surname').val();
-        var email = $('#email').val();
-        var phone = $('#phone').val();
-        var password = $('#password').val();
-        var confirmPassword = $('#confirm-password').val();
-
-
-        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        if (!emailRegex.test(email)) {
-            alert("Lütfen geçerli bir e-posta adresi giriniz.");
-            return;
-        }
-
-
-        if (password !== confirmPassword) {
-            alert("Şifreler eşleşmiyor. Lütfen aynı şifreyi giriniz.");
-            return;
-        }
-
-        alert("Kayıt başarıyla tamamlandı. Bilgileriniz:\nAd: " + name + "\nSoyad: " + surname + "\nE-posta: " + email + "\nTelefon: " + phone);
-        window.location.href = "page2.html";
-    });
+document.getElementById("GitHub").addEventListener("click", function() {
+    window.open('https://github.com/zahidayturan', '_blank');
 });
 
+
+$(document).ready(function() {
+    $('#registration-form').validate({
+        errorElement: 'div',
+        errorClass: 'error-message',
+        rules: {
+            name: {
+                required: true,
+                minlength: 2,
+            },
+            surname: {
+                required: true,
+                minlength: 2,
+            },
+            phone: {
+                required: true,
+                minlength: 7,
+                maxlength: 13
+            },
+            email: {
+                required: true,
+                email: true
+            },
+            password: {
+                required: true,
+                minlength: 4,
+            },
+            'confirm-password': {
+                required: true,
+                equalTo: "#password",
+                minlength: 4
+            }
+        },
+        messages: {
+            name: {
+                required: "",
+                minlength: "Ad en az 2 karakter içermeli",
+            },
+            surname: {
+                required: "",
+                minlength: "Soyad en az 2 karakter içermeli",
+            },
+            phone: {
+                required: "",
+                minlength: "Eksik yazdınız",
+                maxlength: "Uygun formatta giriniz. (555 555 55 55)"
+            },
+            email: {
+                required: "",
+                email: "E-posta adresi geçerli değil"
+            },
+            password: {
+                required: "",
+                minlength: "Şifre en az 4 karakterden oluşmalıdır",
+            },
+            'confirm-password': {
+                required: "",
+                minlength: "Şifre tekrarı en az 4 karakterden oluşmalıdır",
+                equalTo: "Şifreler uyuşmuyor"
+            }
+        },
+        submitHandler: function(form) {
+            var confirmation = confirm("Bilgiler: \n" +
+                "Ad: " + $("#name").val() + "\n" +
+                "Soyad: " + $("#surname").val() + "\n" +
+                "E-posta: " + $("#email").val() + "\n" +
+                "Telefon: " + $("#phone").val() + "\n");
+            if (confirmation) {
+                form.submit();
+                window.location.href = "page2.html";
+            }
+        }
+    });
+});
