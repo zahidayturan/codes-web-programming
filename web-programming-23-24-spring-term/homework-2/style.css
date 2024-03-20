@@ -72,8 +72,8 @@ html {
     font-size: 32px;
     color: var(--secondary-color-4);
     user-select: none;
-
 }
+
 .row-end-c{
     display: flex;
     flex-direction: row;
@@ -289,5 +289,30 @@ html {
 }
 
 @media screen and (max-width: 420px) {
+
+    .header-p1{
+        font-size: 26px;
+    }
+
+    .icon {
+        width: 28px;
+        height: 28px;
+    }
+
+    #form {
+        height: 64ch;
+    }
+
+    .form-header-p1{
+        font-size: 24px;
+    }
+
+    .form-container{
+        padding: 1ch 3ch;
+    }
+
+    #success {
+        height: 64ch;
+    }
 
 }
