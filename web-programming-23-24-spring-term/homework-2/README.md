@@ -1,5 +1,7 @@
 ÖDEV-2
 
+Canlı Link :
+
 https://zahidayturan.github.io/codes-web-programming/web-programming-23-24-spring-term/homework-2/
 
 Jquery Java Script

@@ -1,5 +1,9 @@
 Ödev-1
 
+Canlı Link:
+
+https://zahidayturan.github.io/
+
 HTML-CSS-BOOTSTRAP
 
 Kendinize ait bir kişisel web sayfasını html, css, bootstrap kullanarak tasarlayınız. (Hazır tema kullanmadan)
