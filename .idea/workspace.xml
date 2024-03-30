@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e35a27af-9dc0-4e39-a675-eb6ff019d99f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.idea/artifacts/web4_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.idea/artifacts/web4_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/src/main/java/com/example/web4/UploadServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/src/main/webapp/assets/github-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-4/web4/src/main/webapp/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-3/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,9 +33,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -82,7 +97,11 @@
       <workItem from="1711192883186" duration="1523000" />
       <workItem from="1711226942167" duration="704000" />
       <workItem from="1711457533263" duration="2345000" />
-      <workItem from="1711460970569" duration="1843000" />
+      <workItem from="1711460970569" duration="2508000" />
+      <workItem from="1711543015096" duration="55000" />
+      <workItem from="1711543871090" duration="448000" />
+      <workItem from="1711551052045" duration="4230000" />
+      <workItem from="1711570215706" duration="593000" />
     </task>
     <servers />
   </component>

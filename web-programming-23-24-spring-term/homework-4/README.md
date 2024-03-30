@@ -1,5 +1,6 @@
-ÖDEV-4
+# ÖDEV-4
 
+## localhost:8080
 
 Hazırladığınız bir html/jsp arayüzde  bir yada birden fazla seçilen fotoğrafın sunucuya aktarılması işlemini gerçekleştiriniz. Aktarım tamamlandığında işlemin bittiği uyarısını ekrana uygun şekilde gösteriniz.
 
