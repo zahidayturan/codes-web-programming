@@ -13,6 +13,10 @@
   - [Repo Link](https://github.com/zahidayturan/codes-web-programming/tree/main/web-programming-23-24-spring-term/homework-3)
 - 4 / POST mng. (HTML-JSP-JS)
   - [Repo Link](https://github.com/zahidayturan/codes-web-programming/tree/main/web-programming-23-24-spring-term/homework-4)
+- 5 / Cookies (JSP-JS-Servlet-Tomcat)
+  - [Repo Link](https://github.com/zahidayturan/codes-web-programming/tree/main/web-programming-23-24-spring-term/homework-5)
+- 6 / Session (Java-JSP-Servlet-Tomcat-EE)
+  - [Repo Link](https://github.com/zahidayturan/codes-web-programming/tree/main/web-programming-23-24-spring-term/homework-6)
 
 
 
