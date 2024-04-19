@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2b6c7c24-fec5-4d90-ad58-96b44d5ac785" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.idea/artifacts/web3_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.idea/artifacts/web5_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/java/com/example/web5/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/assets/dd-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/assets/github-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/assets/home-line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../homework-5/src/main/webapp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2f5kgqVdgNJqXazNVjmOEetZ3Ae" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Tomcat 10.1.19" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10.1.19" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="web6:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web6_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web6:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2b6c7c24-fec5-4d90-ad58-96b44d5ac785" name="Changes" comment="" />
+      <created>1713098445618</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713098445618</updated>
+      <workItem from="1713098446865" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
