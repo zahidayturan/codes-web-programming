@@ -17,6 +17,9 @@
   - [Repo Link](https://github.com/zahidayturan/codes-web-programming/tree/main/web-programming-23-24-spring-term/homework-5)
 - 6 / Session (Java-JSP-Servlet-Tomcat-EE)
   - [Repo Link](https://github.com/zahidayturan/codes-web-programming/tree/main/web-programming-23-24-spring-term/homework-6)
+- 7 / MVC CRUD Op. (MySQL-Apache-Servlet-Java)
+  - [Repo Link](https://github.com/zahidayturan/codes-web-programming/tree/main/web-programming-23-24-spring-term/homework-7)
+
 
 
 
