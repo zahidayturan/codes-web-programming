@@ -5,27 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e35a27af-9dc0-4e39-a675-eb6ff019d99f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.idea/artifacts/web3_war.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.idea/artifacts/web5_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/java/com/example/web5/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/assets/dd-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/assets/github-light.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/assets/home-line.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-5/src/main/webapp/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -113,6 +92,8 @@
       <workItem from="1713045060861" duration="167000" />
       <workItem from="1713089519717" duration="586000" />
       <workItem from="1713091184400" duration="268000" />
+      <workItem from="1713701594206" duration="381000" />
+      <workItem from="1714494526043" duration="8000" />
     </task>
     <servers />
   </component>
