@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+    --background-color: rgb(240, 240, 240);
+    --primary-color: rgb(253,253,253);
+    --yellow-color: rgb(242,183,5);
+    --blue-color: rgb(33,115,115);
+    --blue-color--2: rgb(2,64,89);
+    --green-color: rgb(132,176,38);
+    --red-color: rgb(242,7,50);
+    --grey-color: rgb(50,56,55);
+    --secondary-color: rgb(5,5,5);
+
+}
+
+/* Dark Mode */
+[theme="dark"] {
+
+}
+
+/* BASIC */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: var(--background-color);
+    cursor: default;
+    margin: 36px;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+/* TRANSITION */
+
+* {
+    transition: all 300ms ease;
+}
+
+
+/* STAGE SECTION */
+#stage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.stage-container{
+    border-radius: 50px;
+    background: var(--primary-color);
+    height: 100px;
+    width: 300px;
+}
+/* MEDIA */
+@media screen and (max-width: 1140px) {
+
+}
+
+@media screen and (max-width: 740px) {
+
+}
