@@ -10,11 +10,29 @@
 <body>
     <section id="stage">
         <div class="stage-container">
-
+            <div class="stage-box ready-stage">
+                <p class="stage-digit">1</p>
+            </div>
+            <div class="stage-box run-stage">
+                <p class="stage-digit">2</p>
+            </div>
+            <div class="stage-box finish-stage">
+                <p class="stage-digit">3</p>
+            </div>
         </div>
+        <p class="stage-text">İfade Bekleniyor</p>
     </section>
 
-    <p>PDAFT, girilen bir matematiksel ifadenin geçerli olup olmadığını kontrol eden bir
+    <section id="form">
+        <form class="form" action="" method="get" id="expression-form">
+            <label for="expression"></label>
+            <input class="form-input" type="text" id="expression" name="expression" placeholder="Kontrol edilecek matematiksel ifadeyi giriniz">
+            <button class="form-button" type="submit" value="Submit"><img src="assets/start.png" alt="start"></button>
+        </form>
+
+    </section>
+
+    <p class="app-text">PDAFT, girilen bir matematiksel ifadenin geçerli olup olmadığını kontrol eden bir
         Pushdown Automaton (PDA) örnek simülasyonudur. Girdiğiniz matematiksel ifadeler
         +, -, *, / operatörlerini ve parantezleri (( ve )) içermelidir. Ayrıca sayılar
         0-9 aralığındaki rakamlardan oluşmalıdır.</p>

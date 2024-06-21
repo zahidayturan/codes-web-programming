@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e35a27af-9dc0-4e39-a675-eb6ff019d99f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/start.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-7/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web-programming-23-24-spring-term/homework-7/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-practices/template-pda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-practices/template-pda/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web-practices/template-pda/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-practices/template-pda/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +100,7 @@
       <workItem from="1716394102507" duration="53000" />
       <workItem from="1718913028091" duration="1211000" />
       <workItem from="1719000280052" duration="1885000" />
+      <workItem from="1719004302860" duration="2476000" />
     </task>
     <servers />
   </component>

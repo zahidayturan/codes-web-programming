@@ -7,6 +7,7 @@
     --blue-color: rgb(33,115,115);
     --blue-color--2: rgb(2,64,89);
     --green-color: rgb(132,176,38);
+    --green-color--2: rgb(102, 145, 15);
     --red-color: rgb(242,7,50);
     --grey-color: rgb(50,56,55);
     --secondary-color: rgb(5,5,5);
@@ -29,11 +30,15 @@ body {
     background-color: var(--background-color);
     cursor: default;
     margin: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
 }
 
 html {
     scroll-behavior: smooth;
-    font-size: 16px;
 }
 
 p {
@@ -51,15 +56,105 @@ p {
 #stage {
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    gap: 6px;
+    align-items: center;
 
 }
 .stage-container{
-    border-radius: 50px;
+    border-radius: 48px;
     background: var(--primary-color);
-    height: 100px;
-    width: 300px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 24px;
 }
+
+.stage-box{
+    width: 54px;
+    height: 54px;
+    border: 1px solid black;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ready-stage{
+    background: var(--yellow-color);
+    border-color: var(--yellow-color);
+    border-bottom-left-radius: 48px;
+    border-top-left-radius: 48px;
+}
+
+.run-stage{
+    border-color: var(--blue-color);
+    border-radius: 16px;
+}
+
+.finish-stage{
+    border-color: var(--green-color);
+    border-bottom-right-radius: 48px;
+    border-top-right-radius: 48px;
+}
+.stage-digit{
+    color: var(--background-color);
+}
+.stage-text{
+    color: var(--yellow-color);
+}
+
+/* FORM SECTION */
+#form {
+    width: 80%;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.form-input{
+    height: 54px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    padding: 0 12px;
+    font-size: 1.1rem;
+    background: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.form-button{
+    width: 54px;
+    height: 54px;
+    border: none;
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: var(--green-color);
+    cursor: pointer;
+}
+
+.form-button img{
+    width: 20px;
+    height: 24px;
+}
+
+.form-button:hover{
+    background: var(--green-color--2);
+}
+
+.app-text{
+    width: 60%;
+    text-align: center;
+}
+
 /* MEDIA */
 @media screen and (max-width: 1140px) {
 
