@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e35a27af-9dc0-4e39-a675-eb6ff019d99f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/start.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/next.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q1_q1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q1_q3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q2_q1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q2_q3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q3_q2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q3_q3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q3_q4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q4_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q4_q4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q5_f.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q5_q5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q5_q6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q6_q1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/q6_q5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/z_q1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/z_q5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/pdaState/z_z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/assets/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web-practices/template-pda/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-practices/template-pda/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web-practices/template-pda/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web-practices/template-pda/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/web-practices/template-pda/styles.css" afterDir="false" />
@@ -18,9 +37,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -101,6 +120,7 @@
       <workItem from="1718913028091" duration="1211000" />
       <workItem from="1719000280052" duration="1885000" />
       <workItem from="1719004302860" duration="2476000" />
+      <workItem from="1719055044652" duration="4651000" />
     </task>
     <servers />
   </component>

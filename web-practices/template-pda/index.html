@@ -9,18 +9,22 @@
 </head>
 <body>
     <section id="stage">
-        <div class="stage-container">
-            <div class="stage-box ready-stage">
-                <p class="stage-digit">1</p>
+        <button id="theme-toggle" class="toggle-theme">T</button>
+        <div class="stage-text-box">
+            <div class="stage-container">
+                <div class="stage-box ready-stage">
+                    <p class="stage-digit">1</p>
+                </div>
+                <div class="stage-box run-stage">
+                    <p class="stage-digit">2</p>
+                </div>
+                <div class="stage-box finish-stage">
+                    <p class="stage-digit">3</p>
+                </div>
             </div>
-            <div class="stage-box run-stage">
-                <p class="stage-digit">2</p>
-            </div>
-            <div class="stage-box finish-stage">
-                <p class="stage-digit">3</p>
-            </div>
+            <p class="stage-text">İfade Bekleniyor</p>
         </div>
-        <p class="stage-text">İfade Bekleniyor</p>
+        <button id="theme-toggle2" class="toggle-theme">T</button>
     </section>
 
     <section id="form">
@@ -36,5 +40,34 @@
         Pushdown Automaton (PDA) örnek simülasyonudur. Girdiğiniz matematiksel ifadeler
         +, -, *, / operatörlerini ve parantezleri (( ve )) içermelidir. Ayrıca sayılar
         0-9 aralığındaki rakamlardan oluşmalıdır.</p>
+
+    <section id="result">
+        <div class="result-boxes">
+            <div class="result-box result-stage">
+                <p>Aşama 1/9</p>
+                <p>(</p>
+                <p>Geçerli bir ifade olabilir<br>Sonraki aşamaya geçebilirsiniz
+                </p>
+            </div>
+            <div class="result-box result-log">
+                <p>Push (</p>
+                <p>Push (</p>
+            </div>
+            <div class="result-box result-stack">
+                <p>Z</p>
+                <p>(</p>
+            </div>
+            <div class="result-box result-state">
+                <img src="assets/pdaState/z_z.png" alt="state-image">
+            </div>
+        </div>
+        <div class="stage-button">
+            <button id="prev-stage-button" class="result-button prev-stage-button"><img src="assets/prev.png" alt="prev stage"></button>
+            <p>Aşama 1</p>
+            <button id="next-stage-button" class="result-button next-stage-button"><img src="assets/next.png" alt="next stage"></button>
+        </div>
+    </section>
+
+<script src="script.js"></script>
 </body>
 </html>
